@@ -1,0 +1,142 @@
+.offer {
+  width: 65%;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding: 0px 140px;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #4682b4 0%, #e1ffea22 80%);
+}
+
+.offer-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer-left h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.offer-left p {
+  color: #171717;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.offer-left button {
+  width: 282px;
+  height: 70px;
+  border-radius: 35px;
+  background: #4682b4;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.offer-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.offer-right img {
+  height: 400px;
+}
+
+@media (max-width: 1024px) {
+  .offer {
+    width: 80%; /* Adjust width for medium screens */
+    padding: 0px 50px; /* Reduce padding */
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .offer-left h1 {
+    font-size: 40px; /* Reduce font size */
+  }
+
+  .offer-left p {
+    font-size: 20px; /* Reduce font size */
+  }
+
+  .offer-left button {
+    width: 250px; /* Adjust button width */
+    height: 60px; /* Adjust button height */
+    font-size: 20px; /* Reduce font size */
+  }
+
+  .offer-right img {
+    height: 300px; /* Reduce image height */
+  }
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .offer {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    padding: 20px; /* Reduce padding */
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .offer-left {
+    align-items: center; /* Center align text */
+    text-align: center; /* Center align text */
+  }
+
+  .offer-left h1 {
+    font-size: 30px; /* Further reduce font size */
+  }
+
+  .offer-left p {
+    font-size: 18px; /* Further reduce font size */
+  }
+
+  .offer-left button {
+    width: 100%; /* Full width button */
+    height: 50px; /* Adjust button height */
+    font-size: 18px; /* Reduce font size */
+  }
+
+  .offer-right {
+    justify-content: center; /* Center align the image */
+    padding-top: 20px; /* Reduce padding */
+  }
+
+  .offer-right img {
+    height: 250px; /* Further reduce image height */
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .offer {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .offer-left h1 {
+    font-size: 24px; /* Adjust font size for mobile */
+  }
+
+  .offer-left p {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  .offer-left button {
+    width: 100%; /* Full width button */
+    height: 45px; /* Adjust button height */
+    font-size: 16px; /* Reduce font size */
+  }
+
+  .offer-right img {
+    height: 200px; /* Reduce image height for mobile */
+  }
+}

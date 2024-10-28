@@ -1,0 +1,168 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 5vw;
+}
+
+.footer-logo {
+  width: 280px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.footer-logo p {
+  color: #383838;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.footer-link {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: #252525;
+  font-size: 1.25rem;
+}
+
+.footer-link li {
+  cursor: pointer;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icon-container {
+  padding: 10px;
+  padding-bottom: 6px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  font-size: 1.25rem;
+}
+
+.footer-copyright hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background: #c7c7c7;
+}
+
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: 240px;
+    height: 70px;
+  }
+
+  .footer-logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footer-logo p {
+    font-size: 1.5rem;
+  }
+
+  .footer-link {
+    gap: 40px;
+    font-size: 1.125rem;
+  }
+
+  .footer-social-icon {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 200px;
+    height: 60px;
+  }
+
+  .footer-logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer-logo p {
+    font-size: 1.375rem;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.125rem;
+  }
+
+  .footer-social-icon {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 3vw;
+    gap: 15px;
+  }
+
+  .footer-logo {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .footer-logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-logo p {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+  }
+
+  .footer-social-icon {
+    gap: 10px;
+  }
+
+  .footer-icon-container {
+    padding: 8px;
+  }
+
+  .footer-copyright {
+    font-size: 1rem;
+  }
+
+  .footer-copyright hr {
+    width: 90%;
+  }
+}
